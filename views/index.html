@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <!-- navBar -->
+    <!-- header para criar cabeçalho-->
+    <header id="navbar">
+        <img src="/assets/shuriken.png" alt="Logo">
+        <h2>Matheus Ribeiro</h2>
+        <!-- barra de navegação -->
+        <nav>
+            <!-- não ordenada -->
+            <ul id="navbar-list">
+                <!-- itens da lista -->
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Projetos</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- end navBar -->
+    <!-- conteudo principal -->
+    <main>
+        <!-- banner init -->
+        <!-- bloco de codigo -->
+        <div id="main-banner">
+            <div id="banner-info">
+                <!-- titulo principal -->
+                <h1>Olá, eu sou o Matheus Ribeiro</h1>
+                <img src="/assets/ninja.png" alt="Foto do Perfil">
+                <p>O ninja da Programação</p>
+            </div>
+        </div>
+        <!-- end banner -->
+        <!-- about init -->
+        <!-- Define seção do site -->
+        <section id="about-section">
+            <h2>Sobre o meu jeito ninja de ser</h2>
+            <p>Algum texto falando sobre mim e sobre programação que ficaria bonito nesse momento,porém não é o foco do aprendizado.Para preencher mais espaço deixarei mais linhas de textos,talvez sem sentido algum,mas com muitas palavras para estar completando
+                essas linhas de puro ettxos sem sentido algum legalll ou não legal sei la</p>
+        </section>
+        <!-- about end -->
+    </main>
+    <!-- skills init -->
+    <section id="skills-section">
+        <div class="container">
+            <div class="skills-container">
+                <img src="/assets/weapon1.png" alt="weapons">
+                <h3>Desenvolvimento</h3>
+                <p>Minha maior paixão é desenvolver projetos web</p>
+                <p class="subtitle">Linguagens que utilizo:</p>
+                <p>HTML, CSS, JS</p>
+                <p class="subtitle">Projetos que posso desenvolver:</p>
+                <p>E-commerces, Sites Institucionais, Sistemas de baixa complexibilidade</p>
+            </div>
+            <div class="skills-container central">
+                <img src="/assets/weapon2.png" alt="weapons">
+                <h3>Criação</h3>
+                <p>Atuo também na análise e gerenciamento de projetos</p>
+                <p class="subtitle">Meus conhecimentos:</p>
+                <p>Análise de Softwere, Engenharia de Requisitos, análise de Infra</p>
+            </div>
+            <div class="skills-container">
+                <img src="/assets/weapon3.png" alt="weapons">
+                <h3>Infraestrutura</h3>
+                <p>Posso mensurar seus servidoress, deixando o projeto mais perfomático</p>
+                <p class="subtitle">Serviçõs de Cloud:</p>
+                <p>AWS, Google Cloud, Microsodt Azure</p>
+                <p class="subtitle">O que posso fazer:</p>
+                <p>Clusters, servidores de CDN, diminuir o tempo de requisição</p>
+            </div>
+        </div>
+    </section>
+    <!-- end skills -->
+    <!-- jobs init -->
+    <section id="jobs-section">
+        <h2>Veja meus últimos trabalhos</h2>
+        <p>Aqui estão s meus trabalhos mais recentes, para ver todos <a href="#">Clique aqui.</a></p>
+        <div class="job-container">
+            <div class="job-box proj1"></div>
+            <div class="job-box proj2"></div>
+            <div class="job-box proj3"></div>
+        </div>
+        <div class="job-container">
+            <div class="job-box proj2"></div>
+            <div class="job-box proj3"></div>
+            <div class="job-box proj1"></div>
+        </div>
+    </section>
+    <!-- end jobs-->
+    <!-- footer init -->
+    <footer>
+        <h2>Me mande uma mensagem</h2>
+        <p>Caso queira falar sobre algum projeto,me contratar para algum serviços ou falar sobre ninjas...</p>
+        <img src="/assets/ninja.png" alt="Perfil Ninja">
+        <!-- criar formulario -->
+        <!-- action - para onde sera enviado e method - informa tipo de formulario(get=busca e post=envio-->
+        <form action="" method="">
+            <!-- campo do formulario -->
+            <input type="text" name="name" placeholder="Seu nome">
+            <input type="email" name="enmail" placeholder="Seu e-mail">
+            <!-- para textos mais longos -->
+            <textarea name="msg" placeholder="Digite uma mensagem..."></textarea>
+            <input type="submit" value="Enviar">
+        </form>
+        <p>Desenvolvido por <span class="detail">Matheus Ribeiro</span></p>
+    </footer>
+    <!-- end footer -->
+
+</body>
+
+</html>
